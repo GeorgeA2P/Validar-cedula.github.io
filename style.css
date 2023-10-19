@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    box-sizing: border-box;
+}
+
+.div-main{
+    height: 100%;
+}
+
+#field{
+  width: 50%;  
+  margin: 0 auto;
+  margin-top: calc(30%/2);
+  border-color: #f5dcf5;
+}
+
+form{
+    
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+
+legend{
+    padding: 10px;
+}
+
+label, input{
+    display: block;
+    margin: 8px;
+    outline: none;
+}
+
+label{
+    font-weight: 600;
+}
+
+input[type="text"]:focus{
+
+    background: #e9dcf5;
+
+}
+
+input[type="text"]{
+    padding: 3px 0;
+    text-align: center;
+    width: 190px
+}
+input[type="text"]::placeholder{
+
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+
+#btnValidar{
+    
+    border-radius: 5px;
+    width: 150px;
+    margin: 5px 30px;
+}
+
+#btnValidar:hover{
+
+    background: #e9dcf5;
+}
+
+#msg{
+    display: none;
+}
